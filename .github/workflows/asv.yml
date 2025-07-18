@@ -1,6 +1,8 @@
 # This workflow checks that any added benchmarks *run* on the latest Matplotlib
 # release. It does _not_ update any results.
 name: Benchmark Check
+permissions:
+  contents: read
 on: [push, pull_request]
 
 jobs:
