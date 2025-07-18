@@ -25,7 +25,7 @@ jobs:
       - name: Run asv
         run: |
           asv machine --yes
-          asv dev
+          asv run
 
       - name: Check benchmarks.json is up to date
         run: |
